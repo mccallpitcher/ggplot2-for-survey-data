@@ -1,0 +1,267 @@
+---
+title: "ggplot2 and survey data" 
+format: html 
+editor: visual 
+---
+
+## 1. Load packages and import data
+
+```{r}
+
+# load packages
+library(tidyverse) 
+library(scales)  
+
+# import data
+results <- read_csv("employee_survey_results.csv")
+
+```
+
+## 2. Aggregate
+
+```{r}
+
+# counts and percentages
+counts_perc <- results |> 
+  count(statement, response, response_num) |> 
+  group_by(statement) |> 
+  mutate(total = sum(n), 
+         percent = n / total) 
+
+# medians
+medians <- results |>    
+  group_by(statement) |>    
+  summarize(med = median(response_num)) # calculate median by statement
+```
+
+## 3. 100% stacked bar chart
+
+#### 3a. Try a bare bones plot
+
+```{r, fig.width= 8, fig.height=4}
+
+
+
+
+```
+
+#### 3b. Set sorting order
+
+```{r}
+
+# determine order of the bars (combined value of agree/strongly agree) 
+stacked_order <- results |> 
+  filter(response %in% c("Agree", "Strongly Agree")) |>
+  count(statement) |> 
+  arrange(n) |> 
+  pull(statement) # converts column values to a vector
+
+# set order of the bars and fill categories
+counts_perc <- counts_perc |> 
+  mutate(statement = factor(statement,
+                            levels = stacked_order),
+         response = factor(response,
+                           levels = c("Strongly Agree",
+                                      "Agree",
+                                      "Neutral",
+                                      "Disagree",
+                                      "Strongly Disagree")))
+```
+
+#### 3c. Assign colors to response values
+
+```{r}
+
+fill_colors <- c(
+  "Strongly Agree"    = "#3e6488",
+  "Agree"             = "#829db2",
+  "Neutral"           = "#c8cdd1",
+  "Disagree"          = "#edad89",
+  "Strongly Disagree" = "#e36c32"
+)
+```
+
+#### 3d. Better plot
+
+```{r, fig.width= 8, fig.height=4}
+
+counts_perc |> 
+  ggplot(aes(x = percent, y = statement, fill = response)) +
+  geom_col(width = .7) +
+  labs(x = NULL, y = NULL, fill = NULL) +
+  scale_x_continuous(expand = c(0,0), 
+                     labels = percent) +
+  scale_fill_manual(values = fill_colors,
+                    guide = guide_legend(reverse = TRUE)) +
+  theme_minimal() +
+  theme(legend.position = "top",
+        panel.grid = element_blank(),
+        panel.grid.major.x = element_line(color = "lightgrey"),
+        plot.margin = margin(r = 50))
+```
+
+#### 3e. Save plot
+
+```{r}
+ggsave("stacked_bar.png", 
+       width = 8, height = 4,
+       dpi = 500, bg = "white")
+```
+
+## 4. Jittered strip plot
+
+#### 4a. Try a bare bones plot
+
+```{r, fig.height=4,fig.width=8}
+
+
+
+
+```
+
+#### 4b. Set sorting order
+
+```{r}
+
+# order medians data frame
+medians <- medians |> 
+  mutate(statement = fct_reorder(statement, med))
+
+# order results data frame to match
+results <- results |> 
+  mutate(statement = factor(statement, 
+                            levels = levels(medians$statement)))
+
+```
+
+#### 4c. Create a full grid to enclose jittered points
+
+```{r}
+
+# Get the unique values of x and y variables 
+x_values <- 1:5 
+y_values <- unique(results$statement)  
+
+# Create a complete grid with all possible combinations 
+full_grid <- expand.grid(   
+  response_num = x_values,   
+  statement = y_values 
+  )
+```
+
+#### 4d. Better plot
+
+```{r, fig.height=4,fig.width=8}
+
+ggplot() +  
+  geom_tile(full_grid,
+            mapping = aes(x = response_num, 
+                          y = statement),
+            fill = NA,                                    
+            color = "#dddddd",                              
+            height = .8, 
+            linewidth = .5) +
+  geom_jitter(results, 
+              mapping = aes(x = response_num, 
+                            y = statement,
+                            fill = "One respondent"),
+              size = 2,
+              height = .25,
+              width = .25, 
+              alpha = .5, 
+              color = "#84B6E4") + 
+  geom_point(medians,
+             mapping = aes(x = med, 
+                           y = statement,
+                           color = "Median response"),
+             shape = 108, 
+             size = 11.5) +
+  guides(color = guide_legend(override.aes = list(size = 6))) +
+  labs(x = NULL, y = NULL, color = NULL, fill = NULL) +
+  scale_color_manual(values = "#3e6488") +
+  scale_x_continuous(expand = c(0,0), 
+                     breaks = 1:5,                      
+                     labels = c("1\nStrongly Disagree",
+                                "2",
+                                "3\nNeutral",
+                                "4",
+                                "5\nStrongly Agree")) + 
+  theme_minimal() +   
+  theme(panel.grid = element_blank(),
+        axis.text.x = element_text(size = 10, lineheight = 1.1),
+        legend.text = element_text(size = 10))
+```
+
+#### 4e. Save plot
+
+```{r}
+ggsave("jittered_strip.png", 
+       width = 8, height = 4,
+       dpi = 500, bg = "white")
+```
+
+## 5. Distribution heatmap
+
+#### 5a. Try a bare bones plot
+
+```{r, fig.height=4,fig.width=8}
+
+
+
+
+
+```
+
+#### 5b. Set sorting order
+
+```{r}
+
+# sort counts data frame based on median factor
+counts_perc <- counts_perc |> 
+  mutate(statement = factor(statement,
+                            levels = levels(medians$statement)))
+```
+
+#### 5c. Better plot
+
+```{r, fig.height=4,fig.width=8}
+
+ggplot() +  
+  geom_tile(counts_perc,
+            mapping = aes(x = response_num, 
+                          y = statement, 
+                          fill = n),
+            height = .8) +
+  geom_tile(full_grid,
+            mapping = aes(x = response_num,
+                          y = statement),
+            fill = NA,
+            color = "#dddddd",
+            height = .8,
+            linewidth = .5) +
+  geom_point(medians,
+             mapping = aes(x = med, y = statement,
+                           color = "Median response"),
+             size = 4.3, shape=21, fill = NA) +
+  labs(x = NULL, y = NULL, fill = "Count", color = NULL) +   
+  scale_x_continuous(expand = c(0,0), breaks = 1:5,                      
+                     labels = c("1\nStrongly Disagree",
+                                "2",
+                                "3\nNeutral",
+                                "4",
+                                "5\nStrongly Agree")) +  
+  scale_color_manual(values = "black") +
+  scale_fill_gradient(low  = "#EBF5FB",
+                      high = "#3f739b") +
+  theme_minimal() +   
+  theme(panel.grid = element_blank(),
+        axis.text.x = element_text(size = 10, lineheight = 1.1))
+```
+
+#### 5d. Save plot
+
+```{r}
+ggsave("dist_heatmap.png", 
+       width = 8, height = 4,
+       dpi = 500, bg = "white")
+```

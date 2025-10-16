@@ -1,0 +1,561 @@
+respondent_id,question_id,statement,response,response_num
+1,Q1,I have the resources I need to do my job well,Neutral,3
+1,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+1,Q3,I feel valued for the work I do,Neutral,3
+1,Q4,I receive constructive feedback that helps me improve,Disagree,2
+1,Q5,There is a clear path for career advancement here,Agree,4
+1,Q6,My team works well together,Strongly Disagree,1
+1,Q7,People here treat each other with respect,Strongly Agree,5
+1,Q8,The culture at this organization aligns with my values,Agree,4
+2,Q1,I have the resources I need to do my job well,Disagree,2
+2,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+2,Q3,I feel valued for the work I do,Neutral,3
+2,Q4,I receive constructive feedback that helps me improve,Neutral,3
+2,Q5,There is a clear path for career advancement here,Neutral,3
+2,Q6,My team works well together,Strongly Agree,5
+2,Q7,People here treat each other with respect,Agree,4
+2,Q8,The culture at this organization aligns with my values,Agree,4
+3,Q1,I have the resources I need to do my job well,Neutral,3
+3,Q2,I feel safe and comfortable in my workplace,Agree,4
+3,Q3,I feel valued for the work I do,Neutral,3
+3,Q4,I receive constructive feedback that helps me improve,Disagree,2
+3,Q5,There is a clear path for career advancement here,Strongly Disagree,1
+3,Q6,My team works well together,Agree,4
+3,Q7,People here treat each other with respect,Strongly Agree,5
+3,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+4,Q1,I have the resources I need to do my job well,Strongly Disagree,1
+4,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+4,Q3,I feel valued for the work I do,Strongly Disagree,1
+4,Q4,I receive constructive feedback that helps me improve,Agree,4
+4,Q5,There is a clear path for career advancement here,Disagree,2
+4,Q6,My team works well together,Strongly Agree,5
+4,Q7,People here treat each other with respect,Agree,4
+4,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+5,Q1,I have the resources I need to do my job well,Disagree,2
+5,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+5,Q3,I feel valued for the work I do,Disagree,2
+5,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+5,Q5,There is a clear path for career advancement here,Disagree,2
+5,Q6,My team works well together,Strongly Agree,5
+5,Q7,People here treat each other with respect,Strongly Agree,5
+5,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+6,Q1,I have the resources I need to do my job well,Disagree,2
+6,Q2,I feel safe and comfortable in my workplace,Agree,4
+6,Q3,I feel valued for the work I do,Neutral,3
+6,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+6,Q5,There is a clear path for career advancement here,Strongly Disagree,1
+6,Q6,My team works well together,Strongly Agree,5
+6,Q7,People here treat each other with respect,Agree,4
+6,Q8,The culture at this organization aligns with my values,Neutral,3
+7,Q1,I have the resources I need to do my job well,Neutral,3
+7,Q2,I feel safe and comfortable in my workplace,Neutral,3
+7,Q3,I feel valued for the work I do,Neutral,3
+7,Q4,I receive constructive feedback that helps me improve,Disagree,2
+7,Q5,There is a clear path for career advancement here,Strongly Disagree,1
+7,Q6,My team works well together,Agree,4
+7,Q7,People here treat each other with respect,Strongly Agree,5
+7,Q8,The culture at this organization aligns with my values,Strongly Disagree,1
+8,Q1,I have the resources I need to do my job well,Neutral,3
+8,Q2,I feel safe and comfortable in my workplace,Agree,4
+8,Q3,I feel valued for the work I do,Neutral,3
+8,Q4,I receive constructive feedback that helps me improve,Disagree,2
+8,Q5,There is a clear path for career advancement here,Disagree,2
+8,Q6,My team works well together,Neutral,3
+8,Q7,People here treat each other with respect,Strongly Agree,5
+8,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+9,Q1,I have the resources I need to do my job well,Disagree,2
+9,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+9,Q3,I feel valued for the work I do,Neutral,3
+9,Q4,I receive constructive feedback that helps me improve,Neutral,3
+9,Q5,There is a clear path for career advancement here,Disagree,2
+9,Q6,My team works well together,Agree,4
+9,Q7,People here treat each other with respect,Strongly Agree,5
+9,Q8,The culture at this organization aligns with my values,Neutral,3
+10,Q1,I have the resources I need to do my job well,Neutral,3
+10,Q2,I feel safe and comfortable in my workplace,Agree,4
+10,Q3,I feel valued for the work I do,Neutral,3
+10,Q4,I receive constructive feedback that helps me improve,Disagree,2
+10,Q5,There is a clear path for career advancement here,Disagree,2
+10,Q6,My team works well together,Neutral,3
+10,Q7,People here treat each other with respect,Strongly Agree,5
+10,Q8,The culture at this organization aligns with my values,Agree,4
+11,Q1,I have the resources I need to do my job well,Strongly Disagree,1
+11,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+11,Q3,I feel valued for the work I do,Agree,4
+11,Q4,I receive constructive feedback that helps me improve,Neutral,3
+11,Q5,There is a clear path for career advancement here,Strongly Disagree,1
+11,Q6,My team works well together,Strongly Agree,5
+11,Q7,People here treat each other with respect,Strongly Agree,5
+11,Q8,The culture at this organization aligns with my values,Neutral,3
+12,Q1,I have the resources I need to do my job well,Disagree,2
+12,Q2,I feel safe and comfortable in my workplace,Neutral,3
+12,Q3,I feel valued for the work I do,Neutral,3
+12,Q4,I receive constructive feedback that helps me improve,Disagree,2
+12,Q5,There is a clear path for career advancement here,Neutral,3
+12,Q6,My team works well together,Strongly Agree,5
+12,Q7,People here treat each other with respect,Strongly Agree,5
+12,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+13,Q1,I have the resources I need to do my job well,Strongly Disagree,1
+13,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+13,Q3,I feel valued for the work I do,Neutral,3
+13,Q4,I receive constructive feedback that helps me improve,Disagree,2
+13,Q5,There is a clear path for career advancement here,Disagree,2
+13,Q6,My team works well together,Agree,4
+13,Q7,People here treat each other with respect,Strongly Agree,5
+13,Q8,The culture at this organization aligns with my values,Agree,4
+14,Q1,I have the resources I need to do my job well,Neutral,3
+14,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+14,Q3,I feel valued for the work I do,Neutral,3
+14,Q4,I receive constructive feedback that helps me improve,Neutral,3
+14,Q5,There is a clear path for career advancement here,Disagree,2
+14,Q6,My team works well together,Neutral,3
+14,Q7,People here treat each other with respect,Agree,4
+14,Q8,The culture at this organization aligns with my values,Agree,4
+15,Q1,I have the resources I need to do my job well,Neutral,3
+15,Q2,I feel safe and comfortable in my workplace,Neutral,3
+15,Q3,I feel valued for the work I do,Agree,4
+15,Q4,I receive constructive feedback that helps me improve,Disagree,2
+15,Q5,There is a clear path for career advancement here,Strongly Disagree,1
+15,Q6,My team works well together,Neutral,3
+15,Q7,People here treat each other with respect,Agree,4
+15,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+16,Q1,I have the resources I need to do my job well,Strongly Disagree,1
+16,Q2,I feel safe and comfortable in my workplace,Agree,4
+16,Q3,I feel valued for the work I do,Neutral,3
+16,Q4,I receive constructive feedback that helps me improve,Disagree,2
+16,Q5,There is a clear path for career advancement here,Strongly Disagree,1
+16,Q6,My team works well together,Agree,4
+16,Q7,People here treat each other with respect,Strongly Agree,5
+16,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+17,Q1,I have the resources I need to do my job well,Neutral,3
+17,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+17,Q3,I feel valued for the work I do,Agree,4
+17,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+17,Q5,There is a clear path for career advancement here,Agree,4
+17,Q6,My team works well together,Agree,4
+17,Q7,People here treat each other with respect,Neutral,3
+17,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+18,Q1,I have the resources I need to do my job well,Neutral,3
+18,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+18,Q3,I feel valued for the work I do,Neutral,3
+18,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+18,Q5,There is a clear path for career advancement here,Disagree,2
+18,Q6,My team works well together,Strongly Agree,5
+18,Q7,People here treat each other with respect,Strongly Agree,5
+18,Q8,The culture at this organization aligns with my values,Agree,4
+19,Q1,I have the resources I need to do my job well,Neutral,3
+19,Q2,I feel safe and comfortable in my workplace,Strongly Disagree,1
+19,Q3,I feel valued for the work I do,Neutral,3
+19,Q4,I receive constructive feedback that helps me improve,Disagree,2
+19,Q5,There is a clear path for career advancement here,Disagree,2
+19,Q6,My team works well together,Strongly Agree,5
+19,Q7,People here treat each other with respect,Agree,4
+19,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+20,Q1,I have the resources I need to do my job well,Neutral,3
+20,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+20,Q3,I feel valued for the work I do,Neutral,3
+20,Q4,I receive constructive feedback that helps me improve,Disagree,2
+20,Q5,There is a clear path for career advancement here,Disagree,2
+20,Q6,My team works well together,Strongly Disagree,1
+20,Q7,People here treat each other with respect,Agree,4
+20,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+21,Q1,I have the resources I need to do my job well,Strongly Agree,5
+21,Q2,I feel safe and comfortable in my workplace,Agree,4
+21,Q3,I feel valued for the work I do,Neutral,3
+21,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+21,Q5,There is a clear path for career advancement here,Neutral,3
+21,Q6,My team works well together,Strongly Agree,5
+21,Q7,People here treat each other with respect,Strongly Agree,5
+21,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+22,Q1,I have the resources I need to do my job well,Disagree,2
+22,Q2,I feel safe and comfortable in my workplace,Agree,4
+22,Q3,I feel valued for the work I do,Disagree,2
+22,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+22,Q5,There is a clear path for career advancement here,Neutral,3
+22,Q6,My team works well together,Strongly Agree,5
+22,Q7,People here treat each other with respect,Disagree,2
+22,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+23,Q1,I have the resources I need to do my job well,Neutral,3
+23,Q2,I feel safe and comfortable in my workplace,Strongly Disagree,1
+23,Q3,I feel valued for the work I do,Neutral,3
+23,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+23,Q5,There is a clear path for career advancement here,Disagree,2
+23,Q6,My team works well together,Neutral,3
+23,Q7,People here treat each other with respect,Agree,4
+23,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+24,Q1,I have the resources I need to do my job well,Disagree,2
+24,Q2,I feel safe and comfortable in my workplace,Strongly Disagree,1
+24,Q3,I feel valued for the work I do,Disagree,2
+24,Q4,I receive constructive feedback that helps me improve,Neutral,3
+24,Q5,There is a clear path for career advancement here,Disagree,2
+24,Q6,My team works well together,Strongly Agree,5
+24,Q7,People here treat each other with respect,Strongly Agree,5
+24,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+25,Q1,I have the resources I need to do my job well,Agree,4
+25,Q2,I feel safe and comfortable in my workplace,Agree,4
+25,Q3,I feel valued for the work I do,Agree,4
+25,Q4,I receive constructive feedback that helps me improve,Disagree,2
+25,Q5,There is a clear path for career advancement here,Disagree,2
+25,Q6,My team works well together,Strongly Agree,5
+25,Q7,People here treat each other with respect,Neutral,3
+25,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+26,Q1,I have the resources I need to do my job well,Neutral,3
+26,Q2,I feel safe and comfortable in my workplace,Disagree,2
+26,Q3,I feel valued for the work I do,Neutral,3
+26,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+26,Q5,There is a clear path for career advancement here,Disagree,2
+26,Q6,My team works well together,Strongly Agree,5
+26,Q7,People here treat each other with respect,Strongly Agree,5
+26,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+27,Q1,I have the resources I need to do my job well,Strongly Disagree,1
+27,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+27,Q3,I feel valued for the work I do,Strongly Agree,5
+27,Q4,I receive constructive feedback that helps me improve,Neutral,3
+27,Q5,There is a clear path for career advancement here,Disagree,2
+27,Q6,My team works well together,Strongly Agree,5
+27,Q7,People here treat each other with respect,Strongly Agree,5
+27,Q8,The culture at this organization aligns with my values,Agree,4
+28,Q1,I have the resources I need to do my job well,Neutral,3
+28,Q2,I feel safe and comfortable in my workplace,Agree,4
+28,Q3,I feel valued for the work I do,Disagree,2
+28,Q4,I receive constructive feedback that helps me improve,Disagree,2
+28,Q5,There is a clear path for career advancement here,Disagree,2
+28,Q6,My team works well together,Strongly Agree,5
+28,Q7,People here treat each other with respect,Strongly Agree,5
+28,Q8,The culture at this organization aligns with my values,Agree,4
+29,Q1,I have the resources I need to do my job well,Disagree,2
+29,Q2,I feel safe and comfortable in my workplace,Agree,4
+29,Q3,I feel valued for the work I do,Neutral,3
+29,Q4,I receive constructive feedback that helps me improve,Disagree,2
+29,Q5,There is a clear path for career advancement here,Strongly Disagree,1
+29,Q6,My team works well together,Agree,4
+29,Q7,People here treat each other with respect,Neutral,3
+29,Q8,The culture at this organization aligns with my values,Agree,4
+30,Q1,I have the resources I need to do my job well,Agree,4
+30,Q2,I feel safe and comfortable in my workplace,Neutral,3
+30,Q3,I feel valued for the work I do,Neutral,3
+30,Q4,I receive constructive feedback that helps me improve,Disagree,2
+30,Q5,There is a clear path for career advancement here,Neutral,3
+30,Q6,My team works well together,Strongly Agree,5
+30,Q7,People here treat each other with respect,Strongly Agree,5
+30,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+31,Q1,I have the resources I need to do my job well,Neutral,3
+31,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+31,Q3,I feel valued for the work I do,Neutral,3
+31,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+31,Q5,There is a clear path for career advancement here,Disagree,2
+31,Q6,My team works well together,Strongly Agree,5
+31,Q7,People here treat each other with respect,Strongly Agree,5
+31,Q8,The culture at this organization aligns with my values,Disagree,2
+32,Q1,I have the resources I need to do my job well,Disagree,2
+32,Q2,I feel safe and comfortable in my workplace,Neutral,3
+32,Q3,I feel valued for the work I do,Neutral,3
+32,Q4,I receive constructive feedback that helps me improve,Disagree,2
+32,Q5,There is a clear path for career advancement here,Disagree,2
+32,Q6,My team works well together,Strongly Agree,5
+32,Q7,People here treat each other with respect,Strongly Agree,5
+32,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+33,Q1,I have the resources I need to do my job well,Strongly Disagree,1
+33,Q2,I feel safe and comfortable in my workplace,Disagree,2
+33,Q3,I feel valued for the work I do,Neutral,3
+33,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+33,Q5,There is a clear path for career advancement here,Agree,4
+33,Q6,My team works well together,Agree,4
+33,Q7,People here treat each other with respect,Strongly Agree,5
+33,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+34,Q1,I have the resources I need to do my job well,Strongly Disagree,1
+34,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+34,Q3,I feel valued for the work I do,Neutral,3
+34,Q4,I receive constructive feedback that helps me improve,Strongly Agree,5
+34,Q5,There is a clear path for career advancement here,Disagree,2
+34,Q6,My team works well together,Agree,4
+34,Q7,People here treat each other with respect,Strongly Agree,5
+34,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+35,Q1,I have the resources I need to do my job well,Neutral,3
+35,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+35,Q3,I feel valued for the work I do,Disagree,2
+35,Q4,I receive constructive feedback that helps me improve,Disagree,2
+35,Q5,There is a clear path for career advancement here,Strongly Disagree,1
+35,Q6,My team works well together,Agree,4
+35,Q7,People here treat each other with respect,Neutral,3
+35,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+36,Q1,I have the resources I need to do my job well,Agree,4
+36,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+36,Q3,I feel valued for the work I do,Disagree,2
+36,Q4,I receive constructive feedback that helps me improve,Disagree,2
+36,Q5,There is a clear path for career advancement here,Neutral,3
+36,Q6,My team works well together,Neutral,3
+36,Q7,People here treat each other with respect,Strongly Agree,5
+36,Q8,The culture at this organization aligns with my values,Agree,4
+37,Q1,I have the resources I need to do my job well,Strongly Disagree,1
+37,Q2,I feel safe and comfortable in my workplace,Disagree,2
+37,Q3,I feel valued for the work I do,Neutral,3
+37,Q4,I receive constructive feedback that helps me improve,Neutral,3
+37,Q5,There is a clear path for career advancement here,Disagree,2
+37,Q6,My team works well together,Strongly Agree,5
+37,Q7,People here treat each other with respect,Strongly Agree,5
+37,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+38,Q1,I have the resources I need to do my job well,Neutral,3
+38,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+38,Q3,I feel valued for the work I do,Neutral,3
+38,Q4,I receive constructive feedback that helps me improve,Disagree,2
+38,Q5,There is a clear path for career advancement here,Neutral,3
+38,Q6,My team works well together,Strongly Agree,5
+38,Q7,People here treat each other with respect,Agree,4
+38,Q8,The culture at this organization aligns with my values,Neutral,3
+39,Q1,I have the resources I need to do my job well,Disagree,2
+39,Q2,I feel safe and comfortable in my workplace,Neutral,3
+39,Q3,I feel valued for the work I do,Disagree,2
+39,Q4,I receive constructive feedback that helps me improve,Disagree,2
+39,Q5,There is a clear path for career advancement here,Disagree,2
+39,Q6,My team works well together,Strongly Agree,5
+39,Q7,People here treat each other with respect,Strongly Agree,5
+39,Q8,The culture at this organization aligns with my values,Neutral,3
+40,Q1,I have the resources I need to do my job well,Strongly Agree,5
+40,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+40,Q3,I feel valued for the work I do,Neutral,3
+40,Q4,I receive constructive feedback that helps me improve,Disagree,2
+40,Q5,There is a clear path for career advancement here,Disagree,2
+40,Q6,My team works well together,Strongly Agree,5
+40,Q7,People here treat each other with respect,Strongly Agree,5
+40,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+41,Q1,I have the resources I need to do my job well,Neutral,3
+41,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+41,Q3,I feel valued for the work I do,Agree,4
+41,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+41,Q5,There is a clear path for career advancement here,Strongly Disagree,1
+41,Q6,My team works well together,Strongly Agree,5
+41,Q7,People here treat each other with respect,Neutral,3
+41,Q8,The culture at this organization aligns with my values,Strongly Disagree,1
+42,Q1,I have the resources I need to do my job well,Neutral,3
+42,Q2,I feel safe and comfortable in my workplace,Agree,4
+42,Q3,I feel valued for the work I do,Disagree,2
+42,Q4,I receive constructive feedback that helps me improve,Disagree,2
+42,Q5,There is a clear path for career advancement here,Disagree,2
+42,Q6,My team works well together,Strongly Agree,5
+42,Q7,People here treat each other with respect,Agree,4
+42,Q8,The culture at this organization aligns with my values,Agree,4
+43,Q1,I have the resources I need to do my job well,Strongly Agree,5
+43,Q2,I feel safe and comfortable in my workplace,Agree,4
+43,Q3,I feel valued for the work I do,Strongly Agree,5
+43,Q4,I receive constructive feedback that helps me improve,Disagree,2
+43,Q5,There is a clear path for career advancement here,Disagree,2
+43,Q6,My team works well together,Strongly Agree,5
+43,Q7,People here treat each other with respect,Neutral,3
+43,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+44,Q1,I have the resources I need to do my job well,Disagree,2
+44,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+44,Q3,I feel valued for the work I do,Disagree,2
+44,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+44,Q5,There is a clear path for career advancement here,Strongly Disagree,1
+44,Q6,My team works well together,Strongly Agree,5
+44,Q7,People here treat each other with respect,Strongly Agree,5
+44,Q8,The culture at this organization aligns with my values,Neutral,3
+45,Q1,I have the resources I need to do my job well,Neutral,3
+45,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+45,Q3,I feel valued for the work I do,Neutral,3
+45,Q4,I receive constructive feedback that helps me improve,Neutral,3
+45,Q5,There is a clear path for career advancement here,Strongly Disagree,1
+45,Q6,My team works well together,Disagree,2
+45,Q7,People here treat each other with respect,Agree,4
+45,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+46,Q1,I have the resources I need to do my job well,Neutral,3
+46,Q2,I feel safe and comfortable in my workplace,Neutral,3
+46,Q3,I feel valued for the work I do,Neutral,3
+46,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+46,Q5,There is a clear path for career advancement here,Disagree,2
+46,Q6,My team works well together,Strongly Agree,5
+46,Q7,People here treat each other with respect,Strongly Agree,5
+46,Q8,The culture at this organization aligns with my values,Neutral,3
+47,Q1,I have the resources I need to do my job well,Strongly Agree,5
+47,Q2,I feel safe and comfortable in my workplace,Agree,4
+47,Q3,I feel valued for the work I do,Agree,4
+47,Q4,I receive constructive feedback that helps me improve,Agree,4
+47,Q5,There is a clear path for career advancement here,Neutral,3
+47,Q6,My team works well together,Strongly Agree,5
+47,Q7,People here treat each other with respect,Agree,4
+47,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+48,Q1,I have the resources I need to do my job well,Disagree,2
+48,Q2,I feel safe and comfortable in my workplace,Neutral,3
+48,Q3,I feel valued for the work I do,Neutral,3
+48,Q4,I receive constructive feedback that helps me improve,Disagree,2
+48,Q5,There is a clear path for career advancement here,Agree,4
+48,Q6,My team works well together,Strongly Agree,5
+48,Q7,People here treat each other with respect,Strongly Agree,5
+48,Q8,The culture at this organization aligns with my values,Disagree,2
+49,Q1,I have the resources I need to do my job well,Neutral,3
+49,Q2,I feel safe and comfortable in my workplace,Agree,4
+49,Q3,I feel valued for the work I do,Agree,4
+49,Q4,I receive constructive feedback that helps me improve,Disagree,2
+49,Q5,There is a clear path for career advancement here,Disagree,2
+49,Q6,My team works well together,Agree,4
+49,Q7,People here treat each other with respect,Disagree,2
+49,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+50,Q1,I have the resources I need to do my job well,Disagree,2
+50,Q2,I feel safe and comfortable in my workplace,Agree,4
+50,Q3,I feel valued for the work I do,Neutral,3
+50,Q4,I receive constructive feedback that helps me improve,Neutral,3
+50,Q5,There is a clear path for career advancement here,Neutral,3
+50,Q6,My team works well together,Neutral,3
+50,Q7,People here treat each other with respect,Strongly Agree,5
+50,Q8,The culture at this organization aligns with my values,Neutral,3
+51,Q1,I have the resources I need to do my job well,Strongly Disagree,1
+51,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+51,Q3,I feel valued for the work I do,Neutral,3
+51,Q4,I receive constructive feedback that helps me improve,Neutral,3
+51,Q5,There is a clear path for career advancement here,Neutral,3
+51,Q6,My team works well together,Strongly Agree,5
+51,Q7,People here treat each other with respect,Strongly Agree,5
+51,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+52,Q1,I have the resources I need to do my job well,Agree,4
+52,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+52,Q3,I feel valued for the work I do,Neutral,3
+52,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+52,Q5,There is a clear path for career advancement here,Disagree,2
+52,Q6,My team works well together,Strongly Agree,5
+52,Q7,People here treat each other with respect,Neutral,3
+52,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+53,Q1,I have the resources I need to do my job well,Disagree,2
+53,Q2,I feel safe and comfortable in my workplace,Strongly Disagree,1
+53,Q3,I feel valued for the work I do,Disagree,2
+53,Q4,I receive constructive feedback that helps me improve,Neutral,3
+53,Q5,There is a clear path for career advancement here,Disagree,2
+53,Q6,My team works well together,Agree,4
+53,Q7,People here treat each other with respect,Strongly Agree,5
+53,Q8,The culture at this organization aligns with my values,Agree,4
+54,Q1,I have the resources I need to do my job well,Disagree,2
+54,Q2,I feel safe and comfortable in my workplace,Disagree,2
+54,Q3,I feel valued for the work I do,Neutral,3
+54,Q4,I receive constructive feedback that helps me improve,Disagree,2
+54,Q5,There is a clear path for career advancement here,Neutral,3
+54,Q6,My team works well together,Neutral,3
+54,Q7,People here treat each other with respect,Strongly Agree,5
+54,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+55,Q1,I have the resources I need to do my job well,Strongly Disagree,1
+55,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+55,Q3,I feel valued for the work I do,Neutral,3
+55,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+55,Q5,There is a clear path for career advancement here,Disagree,2
+55,Q6,My team works well together,Strongly Agree,5
+55,Q7,People here treat each other with respect,Neutral,3
+55,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+56,Q1,I have the resources I need to do my job well,Neutral,3
+56,Q2,I feel safe and comfortable in my workplace,Agree,4
+56,Q3,I feel valued for the work I do,Neutral,3
+56,Q4,I receive constructive feedback that helps me improve,Disagree,2
+56,Q5,There is a clear path for career advancement here,Disagree,2
+56,Q6,My team works well together,Strongly Agree,5
+56,Q7,People here treat each other with respect,Neutral,3
+56,Q8,The culture at this organization aligns with my values,Neutral,3
+57,Q1,I have the resources I need to do my job well,Neutral,3
+57,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+57,Q3,I feel valued for the work I do,Agree,4
+57,Q4,I receive constructive feedback that helps me improve,Neutral,3
+57,Q5,There is a clear path for career advancement here,Disagree,2
+57,Q6,My team works well together,Agree,4
+57,Q7,People here treat each other with respect,Strongly Agree,5
+57,Q8,The culture at this organization aligns with my values,Disagree,2
+58,Q1,I have the resources I need to do my job well,Agree,4
+58,Q2,I feel safe and comfortable in my workplace,Agree,4
+58,Q3,I feel valued for the work I do,Disagree,2
+58,Q4,I receive constructive feedback that helps me improve,Disagree,2
+58,Q5,There is a clear path for career advancement here,Disagree,2
+58,Q6,My team works well together,Strongly Agree,5
+58,Q7,People here treat each other with respect,Strongly Agree,5
+58,Q8,The culture at this organization aligns with my values,Agree,4
+59,Q1,I have the resources I need to do my job well,Neutral,3
+59,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+59,Q3,I feel valued for the work I do,Strongly Disagree,1
+59,Q4,I receive constructive feedback that helps me improve,Disagree,2
+59,Q5,There is a clear path for career advancement here,Disagree,2
+59,Q6,My team works well together,Neutral,3
+59,Q7,People here treat each other with respect,Neutral,3
+59,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+60,Q1,I have the resources I need to do my job well,Disagree,2
+60,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+60,Q3,I feel valued for the work I do,Neutral,3
+60,Q4,I receive constructive feedback that helps me improve,Disagree,2
+60,Q5,There is a clear path for career advancement here,Strongly Disagree,1
+60,Q6,My team works well together,Strongly Agree,5
+60,Q7,People here treat each other with respect,Strongly Agree,5
+60,Q8,The culture at this organization aligns with my values,Neutral,3
+61,Q1,I have the resources I need to do my job well,Neutral,3
+61,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+61,Q3,I feel valued for the work I do,Neutral,3
+61,Q4,I receive constructive feedback that helps me improve,Disagree,2
+61,Q5,There is a clear path for career advancement here,Neutral,3
+61,Q6,My team works well together,Neutral,3
+61,Q7,People here treat each other with respect,Strongly Agree,5
+61,Q8,The culture at this organization aligns with my values,Agree,4
+62,Q1,I have the resources I need to do my job well,Neutral,3
+62,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+62,Q3,I feel valued for the work I do,Neutral,3
+62,Q4,I receive constructive feedback that helps me improve,Neutral,3
+62,Q5,There is a clear path for career advancement here,Disagree,2
+62,Q6,My team works well together,Agree,4
+62,Q7,People here treat each other with respect,Strongly Agree,5
+62,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+63,Q1,I have the resources I need to do my job well,Disagree,2
+63,Q2,I feel safe and comfortable in my workplace,Disagree,2
+63,Q3,I feel valued for the work I do,Neutral,3
+63,Q4,I receive constructive feedback that helps me improve,Disagree,2
+63,Q5,There is a clear path for career advancement here,Strongly Agree,5
+63,Q6,My team works well together,Neutral,3
+63,Q7,People here treat each other with respect,Neutral,3
+63,Q8,The culture at this organization aligns with my values,Neutral,3
+64,Q1,I have the resources I need to do my job well,Neutral,3
+64,Q2,I feel safe and comfortable in my workplace,Agree,4
+64,Q3,I feel valued for the work I do,Neutral,3
+64,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+64,Q5,There is a clear path for career advancement here,Disagree,2
+64,Q6,My team works well together,Strongly Agree,5
+64,Q7,People here treat each other with respect,Neutral,3
+64,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+65,Q1,I have the resources I need to do my job well,Strongly Disagree,1
+65,Q2,I feel safe and comfortable in my workplace,Agree,4
+65,Q3,I feel valued for the work I do,Neutral,3
+65,Q4,I receive constructive feedback that helps me improve,Disagree,2
+65,Q5,There is a clear path for career advancement here,Disagree,2
+65,Q6,My team works well together,Strongly Agree,5
+65,Q7,People here treat each other with respect,Strongly Agree,5
+65,Q8,The culture at this organization aligns with my values,Agree,4
+66,Q1,I have the resources I need to do my job well,Disagree,2
+66,Q2,I feel safe and comfortable in my workplace,Disagree,2
+66,Q3,I feel valued for the work I do,Agree,4
+66,Q4,I receive constructive feedback that helps me improve,Strongly Agree,5
+66,Q5,There is a clear path for career advancement here,Strongly Agree,5
+66,Q6,My team works well together,Agree,4
+66,Q7,People here treat each other with respect,Neutral,3
+66,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+67,Q1,I have the resources I need to do my job well,Disagree,2
+67,Q2,I feel safe and comfortable in my workplace,Agree,4
+67,Q3,I feel valued for the work I do,Neutral,3
+67,Q4,I receive constructive feedback that helps me improve,Disagree,2
+67,Q5,There is a clear path for career advancement here,Disagree,2
+67,Q6,My team works well together,Agree,4
+67,Q7,People here treat each other with respect,Agree,4
+67,Q8,The culture at this organization aligns with my values,Strongly Agree,5
+68,Q1,I have the resources I need to do my job well,Neutral,3
+68,Q2,I feel safe and comfortable in my workplace,Strongly Agree,5
+68,Q3,I feel valued for the work I do,Neutral,3
+68,Q4,I receive constructive feedback that helps me improve,Strongly Disagree,1
+68,Q5,There is a clear path for career advancement here,Disagree,2
+68,Q6,My team works well together,Strongly Agree,5
+68,Q7,People here treat each other with respect,Strongly Agree,5
+68,Q8,The culture at this organization aligns with my values,Agree,4
+69,Q1,I have the resources I need to do my job well,Strongly Disagree,1
+69,Q2,I feel safe and comfortable in my workplace,Neutral,3
+69,Q3,I feel valued for the work I do,Neutral,3
+69,Q4,I receive constructive feedback that helps me improve,Disagree,2
+69,Q5,There is a clear path for career advancement here,Disagree,2
+69,Q6,My team works well together,Strongly Agree,5
+69,Q7,People here treat each other with respect,Disagree,2
+69,Q8,The culture at this organization aligns with my values,Agree,4
+70,Q1,I have the resources I need to do my job well,Strongly Disagree,1
+70,Q2,I feel safe and comfortable in my workplace,Neutral,3
+70,Q3,I feel valued for the work I do,Strongly Disagree,1
+70,Q4,I receive constructive feedback that helps me improve,Neutral,3
+70,Q5,There is a clear path for career advancement here,Strongly Agree,5
+70,Q6,My team works well together,Neutral,3
+70,Q7,People here treat each other with respect,Neutral,3
+70,Q8,The culture at this organization aligns with my values,Disagree,2
